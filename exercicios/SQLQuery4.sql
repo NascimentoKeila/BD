@@ -1,8 +1,8 @@
--- CriaÃ§Ã£o do banco de dados fictï¿½cio "Vendas"
+-- Criação do banco de dados fictício "Vendas"
 CREATE DATABASE Vendas;
 USE Vendas;
 
--- CriaÃ§Ã£o da tabela "Compras"
+-- Criação da tabela "Compras"
 CREATE TABLE Compras (
     IDCompra INT PRIMARY KEY,
     DataCompra DATE,
@@ -10,7 +10,7 @@ CREATE TABLE Compras (
     Quantidade INT
 );
 
--- InserÃ§Ã£o de dados de exemplo
+-- Inserção de dados de exemplo
 INSERT INTO Compras (IDCompra, DataCompra, Produto, Quantidade)
 VALUES
     (1, '2024-03-17', 'Produto A', 10),
@@ -18,7 +18,8 @@ VALUES
     (3, '2024-03-18', 'Produto A', 8),
     (4, '2024-03-18', 'Produto C', 12);
 
--- CriaÃ§Ã£o da procedure para levantamento diï¿½rio
+
+-- Criação da procedure para levantamento diário
 CREATE PROCEDURE CalcularQuantidadeProdutosPorDia
 AS
 BEGIN
@@ -29,6 +30,5 @@ BEGIN
     GROUP BY DataCompra
     ORDER BY DataCompra;
 END;
-
--- ExecuÃ§Ã£o da procedure
+-- Execução da procedure
 EXEC CalcularQuantidadeProdutosPorDia;
