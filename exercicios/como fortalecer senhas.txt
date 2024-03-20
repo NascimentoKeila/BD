@@ -1,0 +1,6 @@
+﻿1. Use um gerenciador de senhas:
+   * Ferramentas como o Kaspersky Password Manager oferecem criptografia e acessibilidade em qualquer lugar com conexão à Internet. Além disso, muitos gerenciadores possuem um gerador de senhas e um verificador de força de senha integrados
+2. Crie senhas longas e complexas manualmente:
+   * Opte por senhas que tenham pelo menos 10 caracteres ou mais. Alterne entre letras, números e símbolos (se o site permitir). Evite usar informações pessoais óbvias, como datas de aniversário ou nomes de familiares. Quanto mais diversificada e imprevisível a combinação, melhor.
+3. Use paráfrases ou combinações aleatórias de palavras:
+   * Em vez de uma única palavra, crie senhas usando frases ou combinações de palavras. Por exemplo, “GirafaAzulSaltitante123!” é mais forte do que “Senha123”. Essa abordagem aumenta a complexidade e dificulta a adivinhação
